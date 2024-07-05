@@ -37,8 +37,8 @@ vstore = connect_to_vstore()
 add_to_vectorstore = input("Do you want to update the issues? (y/N): ").lower() in ["yes", "y"]
 
 if add_to_vectorstore:
-    owner = "techwithtim"
-    repo = "Flask-Web-App-Tutorial"
+    owner = "jbsticher"
+    repo = "Python_AI_Agent"
     issues = fetch_github_issues(owner, repo)
 
     try:
