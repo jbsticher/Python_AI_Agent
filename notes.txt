@@ -1,0 +1,9 @@
+
+
+# Generate five unique random numbers between 1 and 42
+unique_numbers = random.sample(range(1, 43), 5)
+unique_numbers.sort()
+
+print(unique_numbers)
+```
+The Python program provided above generates five unique random numbers between 1 and 42 and returns them in order. You can run this program in a Python environment to see the output.
